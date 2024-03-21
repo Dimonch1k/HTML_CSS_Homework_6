@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  justify-content: center;
+}
+
+/* Credit card */
+.credit_card {
+  background-color: #9fcdcd;
+  background-image: url("../images/moon_flag.png");
+  background-repeat: no-repeat;
+  background-position: 70vh 23vh;
+  margin-top: 100px;
+
+  padding: 40px 40px 120px 40px;
+  border-radius: 15px;
+  width: 900px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  /* Credit card heading */
+  .card_heading {
+    background-color: #db6424;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 70%;
+    text-align: center;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card_number_block,
+.card_name_block,
+.expiry_date_block,
+.cvv_cvn_block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  color: #4f6e66;
+}
+
+input {
+  border: none;
+}
