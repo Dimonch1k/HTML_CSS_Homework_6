@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* For ALL */
 * {
   margin: 0;
   padding: 0;
@@ -12,53 +13,21 @@ main {
   justify-content: center;
 }
 
-/* Credit card */
-.credit_card {
-  background-color: #9fcdcd;
-  background-image: url("../images/moon_flag.png");
-  background-repeat: no-repeat;
-  background-position: 70vh 23vh;
-  margin-top: 100px;
-
-  padding: 40px 40px 120px 40px;
-  border-radius: 15px;
-  width: 900px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-
-  /* Credit card heading */
-  .card_heading {
-    background-color: #db6424;
-    color: white;
-    font-size: 24px;
-    padding: 20px;
-    border-radius: 15px;
-    width: 70%;
-    text-align: center;
-  }
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.card_number_block,
-.card_name_block,
-.expiry_date_block,
-.cvv_cvn_block {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
+/* Label */
 label {
   color: #4f6e66;
 }
 
+/* Input */
 input {
+  background-color: #B6D1D1;
+  padding: 15px;
+  font-size: large;
   border: none;
+  border-bottom: 1px solid black;
+}
+
+input::placeholder {
+  color: #8BA6A9;
+  font-weight: 500;
 }
