@@ -24,6 +24,9 @@
         border-radius: 15px;
         width: 70%;
         text-align: center;
+        margin-left: -100px;
+        clip-path: polygon(5% 0%, 0% 100%, 100% 100%, 100% 0%);
+        border-radius: 100px;
     }
 
     /* Set flex column AND gap 20px for class CONTENT, where are labels and input fields */
