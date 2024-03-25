@@ -7,25 +7,36 @@
   font-family: "Calibri Light", sans-serif;
 }
 
+/* BODY */
 body {
   padding: 20px;
   background-color: #F5F5F5;
 }
 
+/* Input tags */
 input {
   border: none;
 }
 
+/* Input [checkbox, radio] tags */
+input[type="checkbox"],
+input[type="radio"] {
+  cursor: pointer;
+}
+
+/* Image tags */
 img {
   object-fit: cover;
 }
 
-.title {
-  font-size: 20px;
-  font-weight: bolder;
-  letter-spacing: 0.1px;
+/* Button tags */
+button {
+  padding: 6px 15px;
+  color: white;
+  cursor: pointer;
 }
 
+/* Form tag */
 form {
   display: flex;
   flex-direction: column;
@@ -37,4 +48,15 @@ form {
     flex-direction: column;
     gap: 10px;
   }
+}
+
+/* Title for every type of input tags */
+.title {
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 0.1px;
+}
+
+textarea {
+  width: 30%;
 }

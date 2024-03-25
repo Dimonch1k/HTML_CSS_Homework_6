@@ -1,0 +1,9 @@
+.person_state {
+    display: flex;
+    gap: 10px;
+}
+
+#male_id,
+#female_id {
+    border: 6px solid #3cb046;
+}

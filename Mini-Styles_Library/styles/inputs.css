@@ -30,9 +30,14 @@
 .inputs_types .valid_input {
   border-color: #629867;
 }
+
 .valid_input {
-  input::placeholder {
+  input {
     color: #629867;
+
+    &::placeholder {
+      color: #629867;
+    }
   }
 
   img {
@@ -45,8 +50,12 @@
 }
 
 .invalid_input {
-  input::placeholder {
+  input {
     color: #ac5a70;
+
+    &::placeholder {
+      color: #ac5a70;
+    }
   }
 
   img {

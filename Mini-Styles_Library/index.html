@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./styles/inputs.css">
   <link rel="stylesheet" href="./styles/checkboxes.css">
   <link rel="stylesheet" href="./styles/radio.css">
+  <link rel="stylesheet" href="./styles/buttons.css">
 </head>
 
 <!-- BODY -->
@@ -55,20 +56,21 @@
         <span class="title">
           Check boxes
         </span>
-
-        <div class="like switch">
-          <input type="checkbox" name="like_checkbox" id="like_toggle">
-          <span class="slider round"></span>
-          <span class="checkbox_text">
-            Like
-          </span>
-        </div>
-        <div class="subscribe switch">
-          <input type="checkbox" name="like_checkbox" id="subscribe_toggle">
-          <span class="slider round"></span>
-          <span class="checkbox_text">
-            Subscribe
-          </span>
+        <div class="toggles">
+          <div class="like switch">
+            <input type="checkbox" name="like_checkbox" id="like_toggle">
+            <span class="slider round"></span>
+            <span class="checkbox_text">
+              Like
+            </span>
+          </div>
+          <div class="subscribe switch">
+            <input type="checkbox" name="like_checkbox" id="subscribe_toggle">
+            <span class="slider round"></span>
+            <span class="checkbox_text">
+              Subscribe
+            </span>
+          </div>
         </div>
       </label>
 
@@ -108,14 +110,14 @@
           Buttons
         </span>
 
-        <div class="buttons">
-          <button>Active</button>
-          <button>Hover</button>
-          <button type="button" class="btn-danger">Danger</button>
-          <button>Hover</button>
-          <button>Disabled</button>
-          <button>+</button>
-          <button>-</button>
+        <div class="buttons_types">
+          <button class="active-btn">Active</button>
+          <button class="hover-btn1">Hover</button>
+          <button class="danger-btn">Danger</button>
+          <button class="hover-btn2">Hover</button>
+          <button class="disabled-btn">Disabled</button>
+          <button class="plus-btn">&#65291;</button>
+          <button class="minus-btn">-</button>
         </div>
       </label>
 
@@ -128,7 +130,7 @@
         </span>
 
         <!-- Textarea -->
-        <textarea name="" id="" cols="20" rows="6" placeholder="Enter some text..."></textarea>
+        <textarea name="input_textarea" id="textarea" cols="20" rows="6" placeholder="Enter some text..."></textarea>
       </label>
     </form>
   </main>
