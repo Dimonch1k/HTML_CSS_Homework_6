@@ -7,12 +7,131 @@
   <title>Mini Library with Styles</title>
 
   <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/inputs.css">
+  <link rel="stylesheet" href="./styles/checkboxes.css">
+  <link rel="stylesheet" href="./styles/radio.css">
 </head>
 
 <!-- BODY -->
 
 <body>
+  <!-- MAIN -->
+  <main>
+    <form>
 
+      <!-- Inputs block -->
+      <label class="inputs">
+
+        <!-- Title -->
+        <span class="title">
+          Inputs
+        </span>
+
+        <!-- Inputs types -->
+        <div class="inputs_types">
+          <!-- Empty input block -->
+          <div class="empty_input input">
+            <input placeholder="Enter some text">
+          </div>
+
+          <!-- Valid input block -->
+          <div class="valid_input input">
+            <input type="text" placeholder="valid text">
+            <img src="./images/valid.png" alt="valid text">
+          </div>
+
+          <!-- Invalid input block -->
+          <div class="invalid_input input">
+            <input type="text" placeholder="invalid text">
+            <img src="./images/invalid.png" alt="invalid text">
+          </div>
+        </div>
+      </label>
+
+      <!-- Checkboxes block -->
+      <label class="check_boxes">
+
+        <!-- Title -->
+        <span class="title">
+          Check boxes
+        </span>
+
+        <div class="like switch">
+          <input type="checkbox" name="like_checkbox" id="like_toggle">
+          <span class="slider round"></span>
+          <span class="checkbox_text">
+            Like
+          </span>
+        </div>
+        <div class="subscribe switch">
+          <input type="checkbox" name="like_checkbox" id="subscribe_toggle">
+          <span class="slider round"></span>
+          <span class="checkbox_text">
+            Subscribe
+          </span>
+        </div>
+      </label>
+
+      <!-- Radio buttons block -->
+      <label class="radio_btns">
+
+        <!-- Title -->
+        <span class="title">
+          Radio buttons
+        </span>
+
+        <!-- Person state -->
+        <div class="person_state">
+          <span class="gender">
+            Gender:
+          </span>
+
+          <!-- Male -->
+          <div class="male">
+            <input type="radio" name="" id="male_id">
+            <span class="male_title">Male</span>
+          </div>
+
+          <!-- Female -->
+          <div class="female">
+            <input type="radio" name="" id="female_id">
+            <span class="female_title">Female</span>
+          </div>
+        </div>
+      </label>
+
+      <!-- Buttons block -->
+      <label class="buttons">
+
+        <!-- Title -->
+        <span class="title">
+          Buttons
+        </span>
+
+        <div class="buttons">
+          <button>Active</button>
+          <button>Hover</button>
+          <button type="button" class="btn-danger">Danger</button>
+          <button>Hover</button>
+          <button>Disabled</button>
+          <button>+</button>
+          <button>-</button>
+        </div>
+      </label>
+
+      <!-- Text area block -->
+      <label class="text_area">
+
+        <!-- Title -->
+        <span class="title">
+          Text area
+        </span>
+
+        <!-- Textarea -->
+        <textarea name="" id="" cols="20" rows="6" placeholder="Enter some text..."></textarea>
+      </label>
+    </form>
+  </main>
 </body>
 
 </html>
