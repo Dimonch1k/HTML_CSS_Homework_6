@@ -135,7 +135,25 @@
     </form>
   </main>
 
-  <script src="./index.js"></script>
+
+  <!-- Script for radio buttons - if one radio checked, another is unchecked, and vice versa  -->
+  <script>
+    let male = document.querySelector("#male_id");
+    let female = document.querySelector("#female_id");
+
+    male.addEventListener("click", (e) => {
+      male.checked = true;
+      female.checked = false;
+    })
+
+    female.addEventListener("click", (e) => {
+      if (female.checked == true) {
+        female.checked = false;
+      }
+      female.checked = true;
+      male.checked = false;
+    })
+  </script>
 </body>
 
 </html>
