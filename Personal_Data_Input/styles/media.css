@@ -24,10 +24,9 @@
 
         /* Personal details */
         .personal_details .personal_details_fields {
-            margin-top: 7px;
             display: flex;
             flex-direction: column;
-            gap: 36px;
+            gap: 30px;
 
             div {
                 display: flex;
