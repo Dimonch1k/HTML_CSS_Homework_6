@@ -16,6 +16,10 @@
 /* Active btn */
 .active-btn {
     background-color: #43ad4b;
+
+    &:active {
+        box-shadow: #2d742f 0px 0px 1em;
+    }
 }
 
 /* Hover button 1 */
@@ -35,6 +39,7 @@
 /* Hover button 2 */
 .hover-btn2 {
     background-color: #95283e;
+
     &:hover {
         background-color: #e54062;
     }
